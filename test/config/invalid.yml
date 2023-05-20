@@ -2,4 +2,4 @@ apiVersion: v1
 kind: builder
 metadata:
   name: builder
-spec:
+spec
