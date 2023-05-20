@@ -1,7 +1,7 @@
 # builder
 
 [![Build Status](https://github.com/pipebuild/builder/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/pipebuild/builder/actions?query=workflow%3Aci)
-[![codecov](https://codecov.io/gh/pipebuild/builder/branch/main/graph/badge.svg?token=NODHGUZJ9X)](https://codecov.io/gh/pipebuild/builder)
+[![codecov](https://codecov.io/gh/pipebuild/builder/branch/main/graph/badge.svg?token=40MP2KIMM0)](https://codecov.io/gh/pipebuild/builder)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pipebuild/builder)](https://goreportcard.com/report/github.com/pipebuild/builder)
 [![License](https://img.shields.io/github/license/pipebuild/builder.svg)](https://github.com/pipebuild/builder/blob/main/LICENSE)
 [![Tag](https://img.shields.io/github/tag/pipebuild/builder.svg)](https://github.com/pipebuild/builder/tags)
