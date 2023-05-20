@@ -1,6 +1,6 @@
 module github.com/pipebuild/builder
 
-go 1.20
+go 1.18
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
