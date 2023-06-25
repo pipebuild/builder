@@ -2,4 +2,4 @@
 
 tag="$1"
 
-docker build -f Dockerfile -t ghcr.io/pipebuild/builder:"$tag" .
+docker build -f Dockerfile -t ghcr.io/pipebuild/transformer:"$tag" .

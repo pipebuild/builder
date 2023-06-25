@@ -1,16 +1,16 @@
-# builder
+# transformer
 
-[![Build Status](https://github.com/pipebuild/builder/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/pipebuild/builder/actions?query=workflow%3Aci)
-[![codecov](https://codecov.io/gh/pipebuild/builder/branch/main/graph/badge.svg?token=40MP2KIMM0)](https://codecov.io/gh/pipebuild/builder)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pipebuild/builder)](https://goreportcard.com/report/github.com/pipebuild/builder)
-[![License](https://img.shields.io/github/license/pipebuild/builder.svg)](https://github.com/pipebuild/builder/blob/main/LICENSE)
-[![Tag](https://img.shields.io/github/tag/pipebuild/builder.svg)](https://github.com/pipebuild/builder/tags)
+[![Build Status](https://github.com/pipebuild/transformer/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/pipebuild/transformer/actions?query=workflow%3Aci)
+[![codecov](https://codecov.io/gh/pipebuild/transformer/branch/main/graph/badge.svg?token=40MP2KIMM0)](https://codecov.io/gh/pipebuild/transformer)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pipebuild/transformer)](https://goreportcard.com/report/github.com/pipebuild/transformer)
+[![License](https://img.shields.io/github/license/pipebuild/transformer.svg)](https://github.com/pipebuild/transformer/blob/main/LICENSE)
+[![Tag](https://img.shields.io/github/tag/pipebuild/transformer.svg)](https://github.com/pipebuild/transformer/tags)
 
 
 
 ## Introduction
 
-*builder* is the builder of [pipebuild](https://github.com/pipebuild) written in Go.
+*transformer* is the transformer of [pipebuild](https://github.com/pipebuild) written in Go.
 
 
 
@@ -24,7 +24,7 @@
 
 ```bash
 version=latest make build
-./bin/builder --config-file="$PWD"/test/config/config.yml
+./bin/transformer --config-file="$PWD"/test/config/config.yml
 ```
 
 
@@ -33,7 +33,7 @@ version=latest make build
 
 ```bash
 version=latest make docker
-docker run -v "$PWD"/test:/tmp ghcr.io/pipebuild/builder:latest --config-file=/tmp/config/config.yml
+docker run -v "$PWD"/test:/tmp ghcr.io/pipebuild/transformer:latest --config-file=/tmp/config/config.yml
 ```
 
 
@@ -41,9 +41,9 @@ docker run -v "$PWD"/test:/tmp ghcr.io/pipebuild/builder:latest --config-file=/t
 ## Usage
 
 ```
-usage: builder --config-file=CONFIG-FILE [<flags>]
+usage: transformer --config-file=CONFIG-FILE [<flags>]
 
-pipebuild builder
+pipebuild transformer
 
 Flags:
   --[no-]help                Show context-sensitive help (also try --help-long
@@ -56,9 +56,9 @@ Flags:
 
 ## Settings
 
-*builder* parameters can be set in the directory [config](https://github.com/pipebuild/builder/blob/main/config).
+*transformer* parameters can be set in the directory [config](https://github.com/pipebuild/transformer/blob/main/config).
 
-An example of configuration in [config.yml](https://github.com/pipebuild/builder/blob/main/config/config.yml):
+An example of configuration in [config.yml](https://github.com/pipebuild/transformer/blob/main/config/config.yml):
 
 ```yaml
 TBD

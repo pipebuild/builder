@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pipebuild/builder/cmd"
+	"github.com/pipebuild/transformer/cmd"
 )
 
 func main() {

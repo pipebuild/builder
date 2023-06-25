@@ -9,11 +9,11 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/pipebuild/builder/config"
+	"github.com/pipebuild/transformer/config"
 )
 
 var (
-	app        = kingpin.New("builder", "pipebuild builder").Version(config.Version + "-build-" + config.Build)
+	app        = kingpin.New("transformer", "pipebuild transformer").Version(config.Version + "-build-" + config.Build)
 	configFile = app.Flag("config-file", "Config file (.yml)").Required().String()
 )
 

@@ -3,8 +3,8 @@
 build=$(date +%FT%T%z)
 version="$1"
 
-ldflags="-s -w -X github.com/pipebuild/builder/config.Build=$build -X github.com/pipebuild/builder/config.Version=$version"
-target="builder"
+ldflags="-s -w -X github.com/pipebuild/transformer/config.Build=$build -X github.com/pipebuild/transformer/config.Version=$version"
+target="transformer"
 
 go env -w GOPROXY=https://goproxy.cn,direct
 

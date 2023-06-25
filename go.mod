@@ -1,11 +1,11 @@
-module github.com/pipebuild/builder
+module github.com/pipebuild/transformer
 
 go 1.18
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	gopkg.in/yaml.v3 v3.0.1
 )
 

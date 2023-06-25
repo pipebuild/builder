@@ -1,6 +1,6 @@
 ---
 builds:
-  - id: builder
+  - id: transformer
     env:
       - CGO_ENABLED=0
     goos:
@@ -11,10 +11,10 @@ builds:
       - amd64
     dir: .
     main: main.go
-    binary: builder
+    binary: transformer
     flags:
       - -trimpath
-    ldflags: -s -w -X github.com/pipebuild/builder/config.Build={{.Date}} -X github.com/pipebuild/builder/config.Version={{.Version}}
+    ldflags: -s -w -X github.com/pipebuild/transformer/config.Build={{.Date}} -X github.com/pipebuild/transformer/config.Version={{.Version}}
 
 dockers:
   - image_templates: ["ghcr.io/pipebuild/{{ .ProjectName }}:{{ .Tag }}-amd64"]

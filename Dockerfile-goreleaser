@@ -1,5 +1,5 @@
 FROM gcr.io/distroless/base-debian11 AS production-stage
 WORKDIR /
-COPY builder /
+COPY transformer /
 USER nonroot:nonroot
-CMD ["/builder"]
+CMD ["/transformer"]
